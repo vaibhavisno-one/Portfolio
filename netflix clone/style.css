@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.main {
+    background-image: url(assets/pictures/background.jpg);
+    height: 90vh;
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom: 5px solid #232323;
+    
+}
+.main span{
+    cursor: pointer;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 78vw;
+    height: 85px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    color: #E50914;
+    width: 155px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#sign:hover {
+    background-color: #f40612;
+    transform: scale(1.05);
+}
+#tray:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #131211;
+    border: 1px solid white;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.main-text {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.main-text h3 {
+    padding: 20px 0px;
+}
+
+.main-text div {
+    position: relative;
+    z-index: 10;
+    size: 100px;
+}
+
+.main-text input[type="email"] {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-right: 10px;
+    background-color: transparent;
+    
+}
+.main-text button {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.8s, transform 0.3s;
+}
+
+.main-text button:hover {
+    /* background-color: #f40612; */
+    background-color: #131211;
+    color: white;
+    transform: scale(1.05);
+   
+    
+}
+.first{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 85vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.973);
+    align-items: center;
+    border-bottom: 5px solid #232323;
+    padding: 0px 30px;
+
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+    left: 50px;
+}
+.secimg video{
+    position: absolute;
+    width: 25.4vw;
+    left: 120px;
+    top: 75px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    
+}
+section.first > div :nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;    
+
+}
+section.first > div :nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.third img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+    left: 50px;
+}
+.third video{
+    position: absolute;
+    width: 25.6vw;
+    
+    left: 150px;
+    top: 75px;
+}
+.second span{
+    position: relative;
+    z-index: 10;
+}
+
+.last span{
+    position: relative;
+    z-index: 10;
+}
+.quest{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.faq{
+    background-color: #2D2D2D;
+    padding: 24px;
+    margin: 20px;
+    /* height: 60px; */
+    font-size: 30px;
+    width: 70vw;
+    height: 40px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 8px auto;
+    cursor:pointer;
+    transition: 0.5s;
+}
+/* .quest .start{
+    padding: ;
+
+} */
+.faq:hover{
+    background-color: #414141;
+    transform: scale(1.005);
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto; 
+    gap: 25px 10px;
+    padding: 50px;
+    /* justify-items: center; */
+    
+}
+.footer span a{
+    color: white;
+    font-weight: lighter;
+    
+    /* margin: 10px; */
+}
+.one{
+    grid-column: 1/-1;
+}
+.seperation{
+    background-color: grey;
+    width: 100%;
+    height: 5px;
+}
